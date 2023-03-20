@@ -1,16 +1,5 @@
 <?php require_once('../../private/initialize.php'); 
 
-// fancy if...els
-// if the id is not empty assign it the value from $_GET['id']
-// else $id = 1
-// or use the non-coalesing operator
-
-if(!empty($_GET['id'])) {
-  $id = $_GET['id'];
-} else {
-  $id = 1;
-}
-
 $id = $_GET['id'] ?? '1';
 
 $pageTitle = 'Salamander Details';

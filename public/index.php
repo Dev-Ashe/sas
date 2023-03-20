@@ -1,9 +1,6 @@
 <?php require_once('../private/initialize.php'); ?>
-
 <?php 
-
 $pageTitle = 'Home';
-
 include(SHARED_PATH . '/salamander-header.php');
 // Include a shared path to the salamander header
 ?>
